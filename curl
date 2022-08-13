@@ -1,0 +1,5 @@
+ curl -X POST http://127.0.0.1:8080/api/v1/student -H "Content-Type: application/json" -d '{"name":"Roopam","date":"1995-04-10","email":"roopamjain01@gmail.com"}'
+
+ curl -X DELETE http://127.0.0.1:8080/api/v1/student/1 -H "Content-Type: application/json"
+
+ curl -X PUT http://127.0.0.1:8080/api/v1/student/1/?name=RoopamJ -H "Content-Type: application/json"

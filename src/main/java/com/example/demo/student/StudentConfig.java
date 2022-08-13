@@ -20,15 +20,13 @@ public class StudentConfig {
                 1L,
                 "Roopam",
                 LocalDate.of(1990, 05, 22),
-                22,
                 "roopamjain01@gmail.com"
             );
 
             Student lovesh = new Student(
                 2L,
                 "Lovesh",
-                LocalDate.of(1990, 05, 21),
-                22,
+                 LocalDate.of(1988, 05, 21),
                 "roopamjain01@gmail.com"
             );
 
